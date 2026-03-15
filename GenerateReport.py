@@ -10,7 +10,8 @@ from datetime import datetime, timezone
 
 
 # ── Constants ─────────────────────────────────────────────────────────────
-OUTPUT_FILE = "report.html"
+# This file must be configured in Actions workflow for commit
+OUTPUT_FILE = "report.html" 
 
 
 # ── Functions ─────────────────────────────────────────────────────────────
